@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Intervention View</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Aptos", "Segoe UI", sans-serif;
+        color: #f8fafc;
+        background:
+          radial-gradient(circle at bottom left, rgba(251,113,133,0.14), transparent 24%),
+          linear-gradient(135deg, #0d1020 0%, #151625 100%);
+      }
+      .frame { width: 1600px; height: 900px; padding: 42px; box-sizing: border-box; }
+      .card {
+        height: 100%;
+        padding: 34px;
+        border-radius: 34px;
+        background: rgba(13, 16, 32, 0.9);
+        border: 1px solid rgba(148,163,184,0.14);
+      }
+      .eyebrow { color: #fb7185; text-transform: uppercase; letter-spacing: 0.22em; font-size: 13px; }
+      h1 { margin: 10px 0 12px; font-family: Georgia, serif; font-size: 58px; line-height: 0.98; }
+      p { color: #d7d7e6; max-width: 880px; line-height: 1.7; }
+      .grid { display: grid; grid-template-columns: 0.95fr 1.05fr; gap: 20px; margin-top: 24px; }
+      .panel {
+        border-radius: 24px;
+        background: rgba(20, 26, 46, 0.92);
+        border: 1px solid rgba(148,163,184,0.12);
+        padding: 22px;
+      }
+      .pill { float: right; padding: 8px 12px; border-radius: 999px; background: rgba(251,113,133,0.16); color: #fda4af; }
+      .alert, .segment {
+        padding: 16px;
+        border-radius: 18px;
+        margin-top: 14px;
+        background: rgba(30,41,59,0.74);
+      }
+      .segment-grid { display: grid; gap: 14px; }
+    </style>
+  </head>
+  <body>
+    <div class="frame">
+      <div class="card">
+        <div class="eyebrow">Intervention queue</div>
+        <h1>Lifecycle visibility matters most when it turns into timing, ownership, and action.</h1>
+        <p>
+          The control plane is designed to show which cohorts are slipping, which motions deserve escalation, and which
+          teams should move before conversion or renewal windows close.
+        </p>
+        <div class="grid">
+          <div class="panel">
+            <strong>Mid-market product-qualified leads are stalling before activation</strong>
+            <span class="pill">High</span>
+            <div class="alert">Launch self-serve activation motion within 7 days.</div>
+            <div class="alert">Route high-fit enterprise accounts into executive sponsorship and pricing review.</div>
+            <div class="alert">Trigger multi-module enablement playbook for low-adoption renewal-risk cluster.</div>
+          </div>
+          <div class="panel">
+            <strong>Segment posture</strong>
+            <div class="segment-grid">
+              <div class="segment">Enterprise platform teams · Strong · Expansion high · Risk low</div>
+              <div class="segment">Mid-market growth ops · Mixed · Expansion medium · Risk medium</div>
+              <div class="segment">Digital experience leaders · Improving · Expansion high · Risk low</div>
+              <div class="segment">Cloud infrastructure buyers · Watch · Expansion medium · Risk high</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
